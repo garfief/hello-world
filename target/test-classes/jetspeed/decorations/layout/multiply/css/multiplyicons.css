@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'multiplyicons';
+  src: url('../fonts/multiplyicons.eot?45853675');
+  src: url('../fonts/multiplyicons.eot?45853675#iefix') format('embedded-opentype'),
+       url('../fonts/multiplyicons.ttf?45853675') format('truetype'),
+       url('../fonts/multiplyicons.svg?45853675#multiplyicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "multiplyicons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .5em;
+  text-align: center;
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  font-size: 130%;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-education:before { content: '\21'; } /* '!' */
+.icon-besafe:before { content: '\22'; } /* '&quot;' */
+.icon-getactive:before { content: '\23'; } /* '#' */
+.icon-gethealthy:before { content: '\24'; } /* '$' */
+.icon-getfinanciallywell:before { content: '\25'; } /* '%' */

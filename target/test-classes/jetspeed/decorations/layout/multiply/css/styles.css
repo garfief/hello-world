@@ -1,0 +1,33 @@
+@import url("ces_feedback.css");
+@import url("multiplyicons.css");
+@font-face {
+    font-family: "DINPro-Light";
+    src: url("../fonts/DINPro-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DINPro-Medium";
+    src: url("../fonts/DINPro-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DINPro-Regular";
+    src: url("../fonts/DINPro-Regular.ttf") format("truetype");
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.page {
+		margin: auto;
+		margin-top: 50px;
+	    width: 1080px;
+	    padding: 40px;
+		color: #666666;
+	}
+}
+
+.exceptionMessage {
+	display: none;
+}
+.exceptionImage {
+	background: url(../images/service-error-icon.svg) no-repeat center;
+	height: 200px;
+}

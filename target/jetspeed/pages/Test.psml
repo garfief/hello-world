@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="/Test.psml" hidden="false">
+    <title>Test</title>
+    <short-title>Test</short-title>
+    <fragment id="P-1-10000" type="layout" name="jetspeed-layouts::VelocityOneColumn">
+        <fragment id="P-2-10000" type="portlet" name="hello-world-1.0-SNAPSHOT::hello-world">
+        	<title>Sample Hello World Portlet</title>
+            <property name="row" value="0"></property>
+            <property name="column" value="0"></property>
+        </fragment>
+    </fragment>
+    <defaults layout-decorator="multiply" portlet-decorator="bootstrap"></defaults>
+</page>
